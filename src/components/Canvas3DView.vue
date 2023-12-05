@@ -104,7 +104,7 @@ export default {
       const isoconGeometry = new THREE.Mesh(icosahedron, newStandardMaterial);
 
       //Call this function to add load file into scene
-      //loadGLTFFile(scene)
+      loadGLTFFile(scene)
 
       /*---------------------------------------
         Lights
@@ -177,7 +177,7 @@ export default {
       //Add geometries in scene
       //scene.add(boxGeometry);
       //scene.add(sphereGeometry)
-      scene.add(isoconGeometry);
+      //scene.add(isoconGeometry);
 
       //Add lights in scene
       //scene.add(pointLight);
